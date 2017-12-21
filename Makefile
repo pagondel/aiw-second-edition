@@ -5,3 +5,6 @@ run:
 
 build:
 	docker build -t aiw:latest -f docker/aiw/Dockerfile .
+
+rebuild:
+	docker build --no-cache -t aiw:latest -f docker/aiw/Dockerfile .
