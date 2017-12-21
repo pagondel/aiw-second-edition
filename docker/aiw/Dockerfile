@@ -10,3 +10,5 @@ RUN cd /root; git clone https://github.com/ocelma/python-recsys.git; cd python-r
 RUN cd /root; git clone git://github.com/pybrain/pybrain.git pybrain; cd pybrain; sudo python setup.py install
 
 RUN cd /root; git clone https://github.com/dpkp/kafka-python.git; cd kafka-python; git checkout v0.9.5; sudo python setup.py install
+
+WORKDIR /root/aiw
