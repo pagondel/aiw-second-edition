@@ -1,0 +1,6 @@
+version: '2'
+services:
+  aiw-service:
+    image: aiw:latest
+    volumes:
+      - ./src:/root/aiw
